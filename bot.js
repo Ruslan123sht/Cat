@@ -112,7 +112,7 @@ client.on('message', message => {
    }
 })
 
-client.login('YOUR TOKEN HERE');
+client.login('YOUR_TOKEN_HERE');
 client.on('ready', async () => {
     await console.log(`${client.user.username} присоеденился к дискорду и готов работать!`)
 })
