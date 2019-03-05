@@ -1,0 +1,14 @@
+{
+    "name": "Котик",
+    "version": "1.0.0",
+    "description": "Няшный бот, но в тесте",
+    "main": "bot.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "ПушинFire",
+    "license": "ISC",
+    "dependencies": {
+      "discord.js": "^11.3.2"
+    }
+  }
