@@ -52,6 +52,12 @@ var prefix = '.'
    if (!channel) return;
    channel.send(`Добро пожаловать, ${member}!`);
  })
+
+ client.on('guildMemberRemove', member => {
+  const channel = member.guild.channels.find(ch => ch.name === '👋привет-пока👋');
+  if (!channel) return;
+  channel.send(`Жаль что ушёл от нас, ${member}! :crying_cat_face:`);
+})
   
  client.on('message', async message => { 
     if (message.mentions.users.size > 0) {
