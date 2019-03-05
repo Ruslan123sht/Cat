@@ -50,7 +50,7 @@ var prefix = '.'
  
    const channel = member.guild.channels.find(ch => ch.name === '👋привет-пока👋');
    if (!channel) return;
-   channel.send(`Добро пожаловать, ${member}!`);
+   channel.send(`Добро пожаловать, ${member}! :smile_cat:`);
  })
 
  client.on('guildMemberRemove', member => {
